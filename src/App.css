@@ -7,7 +7,8 @@ body {
   font-family: 'JetBrains Mono', monospace;
   font-family: 'Noto Sans Javanese', sans-serif;
   font-family: 'Noto Sans Javanese', sans-serif;
-
+  margin: 0;
+  padding: 0;
 }
 
 /* Pattern 1 */
@@ -71,10 +72,11 @@ body {
 /* Rectangle 1 */
 .rectangle-1 {
   position: absolute;
-  width: 131%;
+  width: 100vw;
   height: 2028px;
   top: 1063px;
   background: #0E0E0E;
+  
 }
 
 /* Welcome to the AI-ML Student Community at NIT Warangal */
@@ -112,7 +114,7 @@ body {
   position: absolute;
   width: 440px;
   height: 603px;
-  left: 1182px;
+  left: 1000px;
   top: 1199px;
   background: url(Assets/image.JPG);
 }
@@ -137,7 +139,7 @@ body {
   position: absolute;
   width: 166px;
   height: 155px;
-  left: 1217.43px;
+  left: 1210.43px;
   top: 188px;
   font-family: 'Krona One';
   font-style: normal;

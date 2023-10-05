@@ -25,6 +25,8 @@ const Home = () => {
     <div className='star'>*</div>
 
     <div className='image-1'></div>
+
+    <div className='projects'>Projects</div>
     </>
 
   )
