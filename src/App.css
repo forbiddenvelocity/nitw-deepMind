@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+/* Desktop - 1 */
+body {
+  position: relative;
+  width: 1440px;
+  height: 3091px;
+  background: #FFFFFF;
+  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Noto Sans Javanese', sans-serif;
+  font-family: 'Noto Sans Javanese', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Pattern 1 */
+.pattern-1 {
+  position: absolute;
+  width: 855px;
+  height: 514px;
+  left: 58px;
+  top: 457px;
+  background: url(Assets/pattern.JPG);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* NITW deepMind */
+.nitw-deepmind {
+  position: absolute;
+  width: 430px;
+  height: 71px;
+  left: 58px;
+  top: 29px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #43514E;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* About Team Contact Join */
+.about-team-contact-join {
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  right: 20px; /* Adjust the right position as needed */
+  font-family: 'JetBrains Mono', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
 }
 
-.App-link {
-  color: #61dafb;
+/* Add hover effect if desired */
+.about-team-contact-join:hover {
+  color: #43514E; /* Change the color on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* A Self-driven Artificial Intelligence and Machine Learning student community of NIT Warangal by EA and Ham Club. */
+.community-description {
+  position: absolute;
+  width: 1192px;
+  height: 85px;
+  left: 58px;
+  top: 260px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #43514E;
+}
+
+/* Rectangle 1 */
+.rectangle-1 {
+  position: absolute;
+  width: 131%;
+  height: 2028px;
+  top: 1063px;
+  background: #0E0E0E;
+}
+
+/* Welcome to the AI-ML Student Community at NIT Warangal */
+.welcome-message {
+  position: absolute;
+  width: 866px;
+  height: 187px;
+  left: 89px;
+  top: 1176px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+
+/* Unlock Your Potential with the Power of AI and ML Are you ready to embark on a journey of innovation and discovery? Join our vibrant community of self-driven passionate students at NIT Warangal exclusively in AI-ML domain, brought to you by EA and Ham Club. */
+.unlock-potential-message {
+  position: absolute;
+  width: 600px;
+  height: 493px;
+  left: 106px;
+  top: 1327px;
+  font-family: 'Noto Sans Javanese';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+
+/* image 1 */
+.image-1 {
+  position: absolute;
+  width: 440px;
+  height: 603px;
+  left: 1182px;
+  top: 1199px;
+  background: url(Assets/image.JPG);
+}
+
+/* Projects */
+.projects {
+  position: absolute;
+  width: 582px;
+  height: 148px;
+  left: 89px;
+  top: 2025px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+
+/* * */
+.star {
+  position: absolute;
+  width: 166px;
+  height: 155px;
+  left: 1217.43px;
+  top: 188px;
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 219px;
+  line-height: 274px;
+  color: #38433D;
+  transform: rotate(0.53deg);
 }
