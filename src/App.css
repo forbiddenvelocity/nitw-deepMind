@@ -30,10 +30,24 @@ body {
   top: 29px;
   font-family: 'JetBrains Mono';
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 800;
+  font-size: 30px;
   line-height: 53px;
-  color: #43514E;
+  color: #0f0f0f;
+}
+
+.nitw-deepmind-1 {
+  position: absolute;
+  width: 430px;
+  height: 71px;
+  left: 148px;
+  top: 29px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 53px;
+  color: #0f0f0f;
 }
 
 /* About Team Contact Join */

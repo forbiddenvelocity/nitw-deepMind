@@ -12,7 +12,8 @@ const Home = () => {
     <div className='community-description'> A Self-driven Artificial Intelligence and Machine Learning student community of NIT Warangal by EA and Ham Club. 
     </div>
 
-    <div className='nitw-deepmind'> NITW deepMind</div>
+    <div className='nitw-deepmind'> NITW </div>
+    <div className='nitw-deepmind-1'> deepMind </div>
 
     <div className='pattern-1'></div>
 
