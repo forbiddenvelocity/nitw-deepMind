@@ -1,14 +1,24 @@
 /* Desktop - 1 */
 body {
   position: relative;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   height: 3091px;
+  margin: 0 auto;
   background: #FFFFFF;
   font-family: 'JetBrains Mono', monospace;
   font-family: 'Noto Sans Javanese', sans-serif;
   font-family: 'Noto Sans Javanese', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.container {
+  max-width: 1440px; /* Allow the container to grow with the screen */
+  margin: 0 auto;
+  padding: 20px; /* Add some padding to prevent content from touching edges */
+  box-sizing: border-box;
+  opacity: 0%; /* Include padding and border in the element's total width */
 }
 
 /* Pattern 1 */
@@ -87,7 +97,7 @@ body {
 .rectangle-1 {
   position: absolute;
   width: 100vw;
-  height: 2028px;
+  height: 4348px;
   top: 1063px;
   background: #0E0E0E;
   
@@ -163,3 +173,871 @@ body {
   color: #38433D;
   transform: rotate(0.53deg);
 }
+
+/* Projects */
+.project-container {
+  position: absolute;
+  width: 582px;
+  height: 148px;
+  left: 89px;
+  top: 2025px;
+}
+
+.project-container h1 {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+
+/* Line 1 */
+.line-1 {
+  position: absolute;
+  width: 1236px;
+  height: 0px;
+  left: 86px;
+  top: 2006.97px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.14deg);
+}
+
+/* Project-1 1 */
+.project-1 {
+  position: absolute;
+  width: 327px;
+  height: 326px;
+  left: 89px;
+  top: 2133px;
+  background: url(Assets/Project-1.JPG);
+}
+
+/* We actively undertake several personal passion projects. */
+.projects-text{
+position: absolute;
+width: 485px;
+height: 55px;
+left: 837px;
+top: 2027px;
+
+font-family: 'Noto sans javanese';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+/* GAN Image Generator */
+/* GAN Image Generator */
+.gan-text{
+position: absolute;
+width: 278px;
+height: 45px;
+left: 86px;
+top: 2477px;
+
+font-family: 'Noto sans javanese';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+.gan-text::after {
+  content: ""; /* Add a pseudo-element */
+  position: absolute; /* Position it absolutely relative to its parent */
+  left: 0; /* Start the underline from the left */
+  right: 0; /* End the underline at the right */
+  bottom: -2px; /* Position the underline just below the text */
+  height: 2px; /* Set the height of the underline */
+  background-color: #FFFFFF; /* Set the color of the underline to white */
+  transform: scaleX(0); /* Initially, set the width of the underline to 0 */
+  transform-origin: center; /* Set the transform origin to the center for scaling */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.gan-text::after {
+  content: ""; /* Add a pseudo-element */
+  position: absolute; /* Position it absolutely relative to its parent */
+  left: 0; /* Start the underline from the left */
+  right: 0; /* End the underline at the right */
+  bottom: -2px; /* Position the underline just below the text */
+  height: 2px; /* Set the height of the underline */
+  background-color: #FFFFFF; /* Set the color of the underline to white */
+  transform: scaleX(0); /* Initially, set the width of the underline to 0 */
+  transform-origin: center; /* Set the transform origin to the center for scaling */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.gan-text:hover::after {
+  transform: scaleX(1); /* Scale the underline to its full width on hover */
+}
+
+
+
+
+
+
+/* project-2 1 */
+.project-2 {
+  position: absolute;
+  width: 326px;
+  height: 326px;
+  left: 543px;
+  top: 2133px;
+  background: url(Assets/project-2.png);
+}
+
+/* DeepArt - deep Dreaming project by Synapse.ai */
+.deepart {
+  position: absolute;
+  width: 325px;
+  height: 45px;
+  left: 541px;
+  top: 2479px;
+  font-family: 'Noto sans javanese';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.deepart::after {
+  content: ""; /* Add a pseudo-element */
+  position: absolute; /* Position it absolutely relative to its parent */
+  left: 0; /* Start the underline from the left */
+  right: 0; /* End the underline at the right */
+  bottom: -10px; /* Position the underline just below the text */
+  height: 2px; /* Set the height of the underline */
+  background-color: #FFFFFF; /* Set the color of the underline to white */
+  transform: scaleX(0); /* Initially, set the width of the underline to 0 */
+  transform-origin: center; /* Set the transform origin to the center for scaling */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.deepart:hover::after {
+  transform: scaleX(1); /* Scale the underline to its full width on hover */
+}
+
+/* project-3 1 */
+.project-3 {
+  position: absolute;
+  width: 326px;
+  height: 326px;
+  left: 996px;
+  top: 2133px;
+  background: url(Assets/project-3.png);
+}
+
+/* project-5 1 */
+.project-5 {
+  position: absolute;
+  width: 323px;
+  height: 330px;
+  left: 543px;
+  top: 2610px;
+  background: url(Assets/project-5.png);
+}
+
+/* project-6 1 */
+.project-6 {
+  position: absolute;
+  width: 326px;
+  height: 326px;
+  left: 996px;
+  top: 2610px;
+  background: url(Assets/project-6.png);
+}
+
+/* Line 2 */
+.line-2 {
+  position: absolute;
+  width: 1236px;
+  height: 0px;
+  left: 89px;
+  top: 3049.97px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.14deg);
+}
+
+/* Research */
+.research-container {
+  position: absolute;
+  width: 582px;
+  height: 148px;
+  left: 89px;
+  top: 3074px;
+  color:#FFFFFF;
+  font-family:'JetBrains Mono';
+}
+
+.research-container {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+
+/* Some of the research papers published by our student members. */
+.research-papers {
+  position: absolute;
+  width: 489px;
+  height: 80px;
+  left: 836px;
+  top: 3076px;
+  font-family: 'Noto sans javanese';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+/* Line 3 */
+.line-3 {
+  position: absolute;
+  width: 1236px;
+  height: 0px;
+  left: 88px;
+  top: 3787.97px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.14deg);
+}
+
+/* andrew 1 */
+.andrew-container {
+  position: absolute;
+  width: 535px;
+  height: 508px;
+  left: 789px;
+  top: 3857px;
+  background-image: url(Assets/andrew.JPG);
+  background-repeat: no-repeat;
+}
+
+/* “No one knows what the right algorithm is...” - Andrew Ng */
+.andrew-quote {
+  position: absolute;
+  width: 636px;
+  height: 474px;
+  left: 100px;
+  top: 3861px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+/* Line 4 */
+.line-4 {
+  position: absolute;
+  width: 1236px;
+  height: 0px;
+  left: 88px;
+  top: 4527.97px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.14deg);
+}
+
+/* Join us in changing the Machine Learning culture at NITW */
+.join-us {
+  position: absolute;
+  width: 1236px;
+  height: 138px;
+  left: 88px;
+  top: 4573px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 51px;
+  color: #FFFFFF;
+}
+
+/* NITW deepMind */
+.deepmind {
+  position: absolute;
+  width: 430px;
+  height: 71px;
+  left: 88px;
+  top: 4967px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+
+/* Line 5 */
+.line-5 {
+  position: absolute;
+  width: 1236px;
+  height: 0px;
+  left: 79px;
+  top: 5166.97px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.14deg);
+}
+
+/* NITW deepMind © 2023 */
+.deepmind-copyright {
+  position: absolute;
+  width: 332px;
+  height: 66px;
+  left: 80px;
+  top: 5188px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* Terms and Policies Brand Guidelines */
+.brand-guidelines {
+  position: absolute;
+  width: 300px;
+  height: 64px;
+  left: 80px;
+  top: 5265px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+/* GitHub YouTube Instagram */
+.social-icons {
+  position: absolute;
+  width: 527px;
+  height: 48px;
+  left: 834px;
+  top: 5190px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+/* Rectangle 2 */
+.rectangle-2{
+position: absolute;
+width: 1440px;
+height: 356px;
+left: 0px;
+top: 5409px;
+
+background: #FFFFFF;
+}
+
+@media (min-width: 1600px) {
+  /* Styles for screens wider than 1440px (e.g., larger desktop screens) */
+  .container {
+    padding: 300px; /* You can adjust padding for larger screens if needed */
+  }
+  .pattern-1 {
+    position: absolute;
+    width: 855px;
+    height: 514px;
+    left: 138px;
+    top: 457px;
+    background: url(Assets/pattern.JPG);
+  }
+  .community-description {
+    position: absolute;
+    width: 1192px;
+    height: 85px;
+    left: 138px;
+    top: 260px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #43514E;
+  }
+  .star {
+    position: absolute;
+    width: 166px;
+    height: 155px;
+    left: 1410.43px;
+    top: 188px;
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 219px;
+    line-height: 274px;
+    color: #38433D;
+    transform: rotate(0.53deg);
+  }
+  .about-team-contact-join {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    right: -180px; /* Adjust the right position as needed */
+    font-family: 'JetBrains Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+  }
+  
+  /* Add hover effect if desired */
+  .about-team-contact-join:hover {
+    color: #43514E; /* Change the color on hover */
+  }
+  .welcome-message {
+    
+    left: 139px;
+    
+  }
+  .unlock-potential-message {
+    left: 146px;
+  }
+  .image-1 {
+    left: 1200px;
+  }
+  .projects {
+    left: 136px;
+  }
+  .line-1 {
+    width: 1700px;
+  }
+  .projects-text{
+    left: 1237px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  /* Default styles for larger screens */
+/* Pattern 1 */
+.pattern-1 {
+  position: absolute;
+  width: 855px;
+  height: 514px;
+  left: 88px;
+  top: 457px;
+  background: url(Assets/pattern.JPG);
+}
+
+
+/* NITW deepMind */
+.nitw-deepmind {
+  position: absolute;
+  width: 430px;
+  height: 71px;
+  left: 58px;
+  top: 29px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 53px;
+  color: #0f0f0f;
+}
+
+/* About Team Contact Join */
+.about-team-contact-join {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-family: 'JetBrains Mono', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+
+/* Add hover effect if desired */
+.about-team-contact-join:hover {
+  color: #43514E;
+}
+
+/* A Self-driven Artificial Intelligence and Machine Learning student community of NIT Warangal by EA and Ham Club. */
+.community-description {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 260px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 48px;
+  color: #43514E;
+}
+
+/* Rectangle 1 */
+.rectangle-1 {
+  position: absolute;
+  width: 100%;
+  top: 1063px;
+  background: #0E0E0E;
+}
+
+/* Welcome to the AI-ML Student Community at NIT Warangal */
+.welcome-message {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 1176px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+/* Unlock Your Potential with the Power of AI and ML Are you ready to embark on a journey of innovation and discovery? Join our vibrant community of self-driven passionate students at NIT Warangal exclusively in AI-ML domain, brought to you by EA and Ham Club. */
+.unlock-potential-message {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 1327px;
+  font-family: 'Noto Sans Javanese';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+/* image 1 */
+.image-1 {
+  position: absolute;
+  width: 100%;
+  top: 1199px;
+  background: url(Assets/image.JPG);
+}
+
+/* Projects */
+.projects {
+  position: absolute;
+  width: 100%;
+  top: 2025px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px; /* Adjust font size for smaller screens */
+  line-height: 48px; /* Adjust line height for smaller screens */
+  color: #FFFFFF;
+}
+
+/* Star (not sure what this is for) */
+.star {
+  position: absolute;
+  width: 166px;
+  height: 155px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 188px;
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 219px;
+  line-height: 274px;
+  color: #38433D;
+  transform: rotate(0.53deg);
+}
+
+/* Line 1 */
+.line-1 {
+  position: absolute;
+  width: 100%;
+  top: 2006.97px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.14deg);
+}
+
+/* Project-1 1 */
+.project-1 {
+  position: absolute;
+  width: 100%;
+  top: 2133px;
+  background: url(Assets/Project-1.JPG);
+}
+
+/* We actively undertake several personal passion projects. */
+.projects-text {
+  position: absolute;
+  width: 100%;
+  top: 2027px;
+  font-family: 'Noto sans javanese';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+/* GAN Image Generator */
+.gan-text {
+  position: absolute;
+  width: 100%;
+  top: 2477px;
+  font-family: 'Noto sans javanese';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+/* Add a white underline hover animation close to the text */
+.gan-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 2px;
+  background-color: #FFFFFF;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.gan-text:hover::after {
+  transform: scaleX(1);
+}
+
+/* project-2 1 */
+.project-2 {
+  position: absolute;
+  width: 100%;
+  top: 2133px;
+  background: url(Assets/project-2.png);
+}
+
+/* DeepArt - deep Dreaming project by Synapse.ai */
+.deepart {
+  position: absolute;
+  width: 100%;
+  top: 2479px;
+  font-family: 'Noto sans javanese';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+/* Add a white underline hover animation close to the text */
+.deepart::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 2px;
+  background-color: #FFFFFF;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.deepart:hover::after {
+  transform: scaleX(1);
+}
+
+/* project-3 1 */
+.project-3 {
+  position: absolute;
+  width: 100%;
+  top: 2133px;
+  background: url(Assets/project-3.png);
+}
+
+/* project-5 1 */
+.project-5 {
+  position: absolute;
+  width: 100%;
+  top: 2610px;
+  background: url(Assets/project-5.png);
+}
+
+/* project-6 1 */
+.project-6 {
+  position: absolute;
+  width: 100%;
+  top: 2610px;
+  background: url(Assets/project-6.png);
+}
+
+/* Line 2 */
+.line-2 {
+  position: absolute;
+  width: 100%;
+  top: 3049.97px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.14deg);
+}
+
+/* Research */
+.research-container {
+  position: absolute;
+  width: 100%;
+  top: 3074px;
+  color: #FFFFFF;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px; /* Adjust font size for smaller screens */
+  line-height: 48px; /* Adjust line height for smaller screens */
+}
+
+/* Some of the research papers published by our student members. */
+.research-papers {
+  position: absolute;
+  width: 100%;
+  top: 3076px;
+  font-family: 'Noto sans javanese';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+/* Line 3 */
+.line-3 {
+  position: absolute;
+  width: 100%;
+  top: 3787.97px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.14deg);
+}
+
+/* andrew 1 */
+.andrew-container {
+  position: absolute;
+  width: 100%;
+  top: 3857px;
+  background-image: url(Assets/andrew.JPG);
+  background-repeat: no-repeat;
+}
+
+/* “No one knows what the right algorithm is...” - Andrew Ng */
+.andrew-quote {
+  position: absolute;
+  width: 100%;
+  top: 3861px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+/* Line 4 */
+.line-4 {
+  position: absolute;
+  width: 100%;
+  top: 4527.97px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.14deg);
+}
+
+/* Join us in changing the Machine Learning culture at NITW */
+.join-us {
+  position: absolute;
+  width: 100%;
+  top: 4573px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px; /* Adjust font size for smaller screens */
+  line-height: 48px; /* Adjust line height for smaller screens */
+  color: #FFFFFF;
+}
+
+/* NITW deepMind */
+.deepmind {
+  position: absolute;
+  width: 100%;
+  top: 4967px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px; /* Adjust font size for smaller screens */
+  line-height: 48px; /* Adjust line height for smaller screens */
+  color: #FFFFFF;
+}
+
+/* Line 5 */
+.line-5 {
+  position: absolute;
+  width: 100%;
+  top: 5166.97px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.14deg);
+}
+
+/* NITW deepMind © 2023 */
+.deepmind-copyright {
+  position: absolute;
+  width: 100%;
+  top: 5188px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px; /* Adjust font size for smaller screens */
+  line-height: 48px; /* Adjust line height for smaller screens */
+  color: #FFFFFF;
+}
+
+/* Terms and Policies Brand Guidelines */
+.brand-guidelines {
+  position: absolute;
+  width: 100%;
+  top: 5265px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px; /* Adjust font size for smaller screens */
+  line-height: 26px; /* Adjust line height for smaller screens */
+  color: #FFFFFF;
+}
+
+/* GitHub YouTube Instagram */
+.social-icons {
+  position: absolute;
+  width: 100%;
+  top: 5190px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px; /* Adjust font size for smaller screens */
+  line-height: 26px; /* Adjust line height for smaller screens */
+  color: #FFFFFF;
+}
+
+/* Rectangle 2 */
+.rectangle-2 {
+  position: absolute;
+  width: 100%;
+  top: 5409px;
+  background: #FFFFFF;
+}
+
+}
+
+
