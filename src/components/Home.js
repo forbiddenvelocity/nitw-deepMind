@@ -42,6 +42,9 @@ const Home = () => {
     <a href="https://github.com/forbiddenvelocity/deepArt-SynapseAI" target="_blank"><div className='deepart'>DeepArt - deep Dreaming project by Synapse.ai</div></a>
     
     <div className='project-3'></div>
+    <a href='https://github.com/riskyhomo/Nandana' target="_blank">
+      <div class='project3-text'>AI Chatbot</div>
+    </a>
     <div className='project-5'></div>
     <div className='project-6'></div>
 
@@ -56,6 +59,7 @@ algorithm is but it gives us hope that if we can discover some crude approximati
 - Andrew Ng</div>
     <div className='line-4'></div>
     <div className='join-us'>Join us in changing the Machine Learning culture at NITW</div>
+    <button class="button-28" role="button">Join Us</button>
     <div className='deepmind'>NITW deepMind <br></br> EA & Ham</div>
     <div className='line-5'></div>
     <div className='deepmind-copyright'>NITW deepMind © 2023</div>
